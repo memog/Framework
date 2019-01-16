@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint MemogFramework.podspec' to ensure this is a
+#  Be sure to run `pod spec lint Memog.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -39,7 +39,7 @@ LICENSE
 }
 s.author             = { "Guillermo Garcia" => "memoogd@gmail.com" }
 s.ios.deployment_target = '8.0'
-s.ios.vendored_frameworks = 'MemogFramework.framework'
+s.ios.vendored_frameworks = 'Memog.framework'
 s.source            = { :http => 'https://github.com/memog/Framework/raw/master/MemogFramework/Memog.zip' }
 s.exclude_files = "Classes/Exclude"
 

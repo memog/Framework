@@ -7,27 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB60D93621EEBF5B001BC046 /* Memog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB60D92C21EEBF5B001BC046 /* Memog.framework */; };
-		BB60D93B21EEBF5B001BC046 /* MemogFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB60D93A21EEBF5B001BC046 /* MemogFrameworkTests.swift */; };
 		BB60D93D21EEBF5B001BC046 /* MemogFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BB60D92F21EEBF5B001BC046 /* MemogFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB60D94921EEC62A001BC046 /* MemogLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB60D94821EEC62A001BC046 /* MemogLogger.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BB60D93721EEBF5B001BC046 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB60D92321EEBF5A001BC046 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB60D92B21EEBF5B001BC046;
-			remoteInfo = MemogFramework;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BB60D92C21EEBF5B001BC046 /* Memog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Memog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB60D92F21EEBF5B001BC046 /* MemogFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemogFramework.h; sourceTree = "<group>"; };
 		BB60D93021EEBF5B001BC046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB60D93521EEBF5B001BC046 /* MemogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB60D93A21EEBF5B001BC046 /* MemogFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemogFrameworkTests.swift; sourceTree = "<group>"; };
 		BB60D93C21EEBF5B001BC046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB60D94821EEC62A001BC046 /* MemogLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemogLogger.swift; sourceTree = "<group>"; };
@@ -38,14 +25,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB60D93221EEBF5B001BC046 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB60D93621EEBF5B001BC046 /* Memog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				BB60D92C21EEBF5B001BC046 /* Memog.framework */,
-				BB60D93521EEBF5B001BC046 /* MemogTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,24 +99,6 @@
 			productReference = BB60D92C21EEBF5B001BC046 /* Memog.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BB60D93421EEBF5B001BC046 /* MemogTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB60D94321EEBF5B001BC046 /* Build configuration list for PBXNativeTarget "MemogTests" */;
-			buildPhases = (
-				BB60D93121EEBF5B001BC046 /* Sources */,
-				BB60D93221EEBF5B001BC046 /* Frameworks */,
-				BB60D93321EEBF5B001BC046 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB60D93821EEBF5B001BC046 /* PBXTargetDependency */,
-			);
-			name = MemogTests;
-			productName = MemogFrameworkTests;
-			productReference = BB60D93521EEBF5B001BC046 /* MemogTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,9 +112,6 @@
 					BB60D92B21EEBF5B001BC046 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
-					};
-					BB60D93421EEBF5B001BC046 = {
-						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
@@ -171,20 +128,12 @@
 			projectRoot = "";
 			targets = (
 				BB60D92B21EEBF5B001BC046 /* Memog */,
-				BB60D93421EEBF5B001BC046 /* MemogTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BB60D92A21EEBF5B001BC046 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB60D93321EEBF5B001BC046 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,23 +151,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB60D93121EEBF5B001BC046 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB60D93B21EEBF5B001BC046 /* MemogFrameworkTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BB60D93821EEBF5B001BC046 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BB60D92B21EEBF5B001BC046 /* Memog */;
-			targetProxy = BB60D93721EEBF5B001BC046 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BB60D93E21EEBF5B001BC046 /* Debug */ = {
@@ -396,44 +329,6 @@
 			};
 			name = Release;
 		};
-		BB60D94421EEBF5B001BC046 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9SL78H4EUY;
-				INFOPLIST_FILE = MemogFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Inmediatum.MemogFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BB60D94521EEBF5B001BC046 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9SL78H4EUY;
-				INFOPLIST_FILE = MemogFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Inmediatum.MemogFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -451,15 +346,6 @@
 			buildConfigurations = (
 				BB60D94121EEBF5B001BC046 /* Debug */,
 				BB60D94221EEBF5B001BC046 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB60D94321EEBF5B001BC046 /* Build configuration list for PBXNativeTarget "MemogTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB60D94421EEBF5B001BC046 /* Debug */,
-				BB60D94521EEBF5B001BC046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
