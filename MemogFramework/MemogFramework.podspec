@@ -24,7 +24,7 @@ DESC
 
 s.homepage     = "https://github.com/memog/Framework"
 s.license      = { :type => "MIT", :file => "license" }
-s.author             = { "Zhihui Tang" => "crafttang@gmail.com" }
+s.author             = { "Guillermo Garcia" => "memoogd@gmail.com" }
 s.ios.deployment_target = '8.0'
 s.ios.vendored_frameworks = 'MemogFramework.framework'
 s.source            = { :http => 'https://s3.amazonaws.com/elasticbeanstalk-us-east-1-564874457370/NiceLogger.zip' }
