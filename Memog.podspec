@@ -38,7 +38,7 @@ LICENSE
 s.author             = { "Guillermo Garcia" => "memoogd@gmail.com" }
 s.ios.deployment_target = '8.0'
 s.ios.vendored_frameworks = 'Memog.framework'
-s.source            = { :http => 'https://github.com/memog/Framework/raw/master/MemogFramework/Memog.zip' }
+s.source            = { :http => 'https://github.com/memog/Framework/blob/master/Memog.zip?raw=trues' }
 s.exclude_files = "Classes/Exclude"
 
 end
