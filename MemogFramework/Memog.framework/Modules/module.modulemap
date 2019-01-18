@@ -1,4 +1,0 @@
-framework module Memog {
-  header "Memog-Swift.h"
-  requires objc
-}

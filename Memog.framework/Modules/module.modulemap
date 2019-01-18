@@ -1,0 +1,11 @@
+framework module Memog {
+  umbrella header "Memog.h"
+
+  export *
+  module * { export * }
+}
+
+module Memog.Swift {
+    header "Memog-Swift.h"
+    requires objc
+}
